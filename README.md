@@ -1,8 +1,8 @@
 # bash-helpers
 Bash helpers
 
-**CTRL + L** - очистка экрана  
-**CTRL + D** - для выхода из терминала  
+**CTRL + L** - clear your screen.
+**CTRL + D** - exit from terminal  
   
 **CTRL + C** - прерывание процесса  
 **CTRL + Z** - усыпляет процесс  
@@ -19,4 +19,4 @@ Bash helpers
 `sudo !!` - запускает последнюю команду с sudo.  
 
 `history` - показывает список последних введенных команд.  `! {number}` - выполнит команду под номером.  
-`HISTTIMEFORMAT="%Y-%m-%d %T "` - добавить информацию о дате и времени выполнении команд.
+`HISTTIMEFORMAT="%Y-%m-%d %T "` - Add information about dates & times for used commands. Works only for opened session, if you close terminal, you will not see that. If you need that it works for every serssion, you need to add this command to `~/.bashrc`
