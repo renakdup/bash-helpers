@@ -2,11 +2,11 @@
 Bash helpers
 
 **CTRL + L** - clear your screen.
-**CTRL + D** - exit from terminal  
+**CTRL + D** - exit from terminal.  
   
-**CTRL + C** - прерывание процесса  
+**CTRL + C** - terminate process.  
 **CTRL + Z** - усыпляет процесс  
-	*можно достать из сна с помощью fg (foreground)*
+	*можно достать из сна с помощью `fg` (foreground)*
 	
 **CTRL + R** - search in terminal commands history  
 	
